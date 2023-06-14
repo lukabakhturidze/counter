@@ -1,0 +1,56 @@
+:root{
+    --larger-text-font-size: 60px;
+    --larger-text-line-height: 65px;
+    --standard-text-font-size: 30px;
+    --standard-text-line-height: 35px;
+}
+/* my library> */
+.display-flex{
+    display: flex;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+/* <my library */
+/* for common tags> */
+.larger-text-size{
+    font-family: 'rufina-bold';
+    font-size: var(--larger-text-font-size);
+    line-height: var(--larger-text-line-height);
+}
+.standard-text-size{
+    font-size: var(--standard-text-font-size);
+    line-height: var(--standard-text-line-height);
+    font-family: 'andada-medium';
+}
+/* <for common tags */
+
+/* for counting section> */
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg,#aaab72 23%, #c16d6d);
+}
+.counter-section{
+    margin-top: 25vh;
+    row-gap: 2.5em;
+}
+.control-panel{
+    column-gap: 2.3em;
+}
+.control-panel > button{
+    border: 2px solid black;
+    border-radius: 0.5em;
+    padding: 0.2em 1em;
+    cursor:pointer;
+    transition: all 0.2s linear;
+}
+.control-panel > button:hover{
+    background-color: #aaab72;
+}
+/* <for counting section */

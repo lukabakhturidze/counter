@@ -25,9 +25,9 @@
     line-height: var(--larger-text-line-height);
 }
 .standard-text-size{
+    font-family: 'andada-medium';
     font-size: var(--standard-text-font-size);
     line-height: var(--standard-text-line-height);
-    font-family: 'andada-medium';
 }
 /* <for common tags */
 
